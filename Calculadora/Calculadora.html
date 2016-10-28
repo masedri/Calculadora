@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejercicio 3</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="controlador.js"></script>
+  <script src="main.js"></script>
+
+  <style type="text/css">
+    .btn{
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container form-group"><h2>Calculadora</h2>
+    <div class="col-xs-12">
+
+      <div class="col-xs-2">
+        <input type="button" id="7"  class="btn form-control btn-primary" value="7">
+        <input type="button" id="4"  class="btn btn-primary form-control" value="4">
+        <input type="button" id="1"  class="btn btn-primary form-control" value="1">
+        <input type="button" id="0" class="btn btn-primary form-control" value="0">
+
+      </div>
+      <div class="col-xs-2">
+        <input type="button" id="8" class="btn btn-primary form-control" value="8">
+        <input type="button" id="5"  class="btn btn-primary form-control" value="5">
+        <input type="button" id="2" class="btn btn-primary form-control" value="2">
+        <input type="button" id="punto" class="btn btn-primary form-control" id="punto" value="."/>
+
+      </div>
+      <div class="col-xs-2">
+        <input type="button" id="9" class="btn btn-primary form-control" value="9">
+        <input type="button" id="6" class="btn btn-primary form-control" value="6">
+        <input type="button" id="3" class="btn btn-primary form-control" value="3">
+        <input type="button" id="limpiar" class="btn btn-primary form-control" id="limpiar" value="C"/>
+      </div>
+      <div class="col-xs-2">
+        <button type="number" class="btn btn-primary form-control" id="sumar" value="+">+</button>
+        <button type="button" class="btn btn-primary form-control" id="restar" value="-">-</button>
+        <button type="button" class="btn btn-primary form-control" id="multiplicar" value="*">x</button>
+        <button type="button" class="btn btn-primary form-control" id="dividir" value="/">/</button>
+      </div>
+      <div class="col-xs-6">
+        <input type="text" name="salida" id="salida" style="border:thin solid silver; padding:.5em; height: 40px" value="0" readonly>
+      </div>
+      <div class="col-xs-2">
+        <input type="button" class="btn btn-primary form-control" id="igual" value="="/>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
